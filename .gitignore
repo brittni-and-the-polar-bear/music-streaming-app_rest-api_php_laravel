@@ -7,6 +7,10 @@ composer.lock
 node_modules/
 package-lock.json
 
+# Laravel
+.env.*
+.env.example
+
 # PhpStorm
 .idea/
 
@@ -26,7 +30,6 @@ vendor/
 # Laravel Files
 # This list will be edited as we progress through the project
 .editorconfig
-.env.example
 artisan
 phpunit.xml
 vite.config.js
